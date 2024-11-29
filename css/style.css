@@ -2,41 +2,98 @@ html {
     font-family: sans-serif;
 }
 
+/* header */
 header {
     background-color: #255ee9;
-    height: 350px;
+    height: 400px;
 }
 
-/* top bar */
 .top-bar-flex {
     display: flex;
     justify-content: space-around;
 }
 
-header .top-bar-flex > div {
-    background-color: yellow;
+header section figure {
+    background-color: rgb(106, 255, 255);
+    height: 50px;
+    width: 100px;
     margin-top: 20px;
 }
 
-h1 {
-    display: flex;
-    justify-content: center;
-    background-color: green;
+header section .tab-section {
+    background-color: rgb(106, 255, 255);
+    height: 50px;
+    width: 500px;
+    margin-top: 20px;
+}
+
+header section .login-button {
+    background-color: rgb(106, 255, 255);
+    height: 50px;
+    width: 100px;
+    margin-top: 20px;
+}
+
+header .h1 {
+    background-color: rgb(122, 211, 122);
+    height: 50px;
+    width: 600px;
+    margin: 0 auto;
+    width: 50%;
     margin-top: 70px;
 }
 
-header article p {
-    background-color: pink;
-    display: flex;
-    justify-content: center;
+header article {
+    background-color: rgb(142, 193, 189);
+    height: 100px;
+    width: 600px;
     margin: 0 auto;
-    width: 70%;
+    width: 60%;
     margin-block: 15px;
 }
 
-.download-buttons {
-    background-color: violet;
+header .download-buttons {
     display: flex;
     justify-content: center;
     gap: 30px;
+}
+header section button {
+    background-color: rgb(96, 136, 61);
+    height: 30px;
+    width: 70px;
+    border-collapse: collapse;
+}
+
+/* main */
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+main .white-block {
+    background-color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main section figure {
+    background-color: rgb(99, 141, 208);
+    height: 200px;
+    width: 350px;
+}
+
+main section article {
+    background-color: rgb(208, 204, 99);
+    height: 200px;
+    width: 350px;
+}
+
+main .lightgray-block {
+    background-color: lightgray;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
