@@ -1,0 +1,22 @@
+header {
+    background-color: #255ee9;
+    height: 300px;
+}
+
+/* top bar */
+.top-bar-flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+#logo {
+    background-color: yellow;
+}
+
+#section-bar {
+    background-color: orange;
+}
+
+#login-button {
+    background-color: red;
+}
