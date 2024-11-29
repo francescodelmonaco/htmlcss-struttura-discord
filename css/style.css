@@ -1,6 +1,10 @@
+html {
+    font-family: sans-serif;
+}
+
 header {
     background-color: #255ee9;
-    height: 300px;
+    height: 350px;
 }
 
 /* top bar */
@@ -9,14 +13,30 @@ header {
     justify-content: space-around;
 }
 
-#logo {
+header .top-bar-flex > div {
     background-color: yellow;
+    margin-top: 20px;
 }
 
-#section-bar {
-    background-color: orange;
+h1 {
+    display: flex;
+    justify-content: center;
+    background-color: green;
+    margin-top: 70px;
 }
 
-#login-button {
-    background-color: red;
+header article p {
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 70%;
+    margin-block: 15px;
+}
+
+.download-buttons {
+    background-color: violet;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
